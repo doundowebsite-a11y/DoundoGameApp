@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "DoundoGame",
+    "slug": "DoundoGame",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#04040e"
+    },
+    "ios": {
+      "requireFullScreen": true,
+      "supportsTablet": false,
+      "bundleIdentifier": "com.DoundoGame.doundo",
+      "infoPlist": {
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait",
+          "UIInterfaceOrientationLandscapeLeft",
+          "UIInterfaceOrientationLandscapeRight"
+        ],
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationPortrait",
+          "UIInterfaceOrientationLandscapeLeft",
+          "UIInterfaceOrientationLandscapeRight"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.DoundoGame.doundo",
+      "versionCode": 1,
+      "softInputMode": "adjustResize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#04040e"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a195c2b-5e9c-4dc7-ac66-a162556191ae"
+      }
+    }
+  }
+}
